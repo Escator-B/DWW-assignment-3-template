@@ -10,6 +10,9 @@
     <!-- ################################   styles  ################################ -->     
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <!-- lucide icons are loaded at the bottom of body tag -->
 
     <!-- ########################   scripts and ressources  ######################## -->
@@ -25,10 +28,12 @@
 </head>
 <body>
 
-    <div>
+    <div id="icons">
         <i data-lucide="house"></i>
         <i data-lucide="menu"></i>
     </div>
+
+    <div id="display-container">
 
     <div>
         <p>
@@ -59,6 +64,7 @@
             Fifth finger average height
         </p>
     </div>
+</div>
     
     <div>
         <p>
@@ -67,8 +73,13 @@
     </div>
    
 
-    <div>
-    <button id="myButton">train again</button>
+    <div id="containerTrainButton">
+    <button id="trainButton">train again</button>
+    </div>
+
+    <div id="containerBottomButton">
+        <button class="bottomButton" id="statsButton">Stats</button>
+        <button class="bottomButton" id="changeExerciseButton">Change exercise</button>
     </div>
 
 
